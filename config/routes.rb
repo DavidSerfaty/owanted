@@ -1,3 +1,11 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root 'static_pages#uikit'
+  get 'static_pages/navbar'
+  get 'static_pages/form'
+  get 'static_pages/footer'
+  get 'static_pages/banner'
+  get 'static_pages/form_sign_in'
+  get 'static_pages/cart'
+
+
 end
