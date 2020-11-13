@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
-  root 'static_pages#uikit'
-  get 'static_pages/navbar'
-  get 'static_pages/form'
-  get 'static_pages/footer'
-  get 'static_pages/banner'
-  get 'static_pages/form_sign_in'
-  get 'static_pages/cart'
+
+  root 'static_pages#homepage'
+
+  devise_for :users
+  resources :users, only: [:show, :edit, :update]
+  
+  get 'services', to: 'static_pages#all_services'
+  resources "contacts", only: [:new, :create]
 
 
 end

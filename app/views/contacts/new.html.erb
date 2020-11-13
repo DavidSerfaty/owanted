@@ -1,0 +1,52 @@
+<div class="jumbotron jumbotron-fluid text-light pt-5 space-3 space-lg-3">
+  <div class="container text-center">
+    <h1 class="display-4 text-light">Nous contacter</h1>
+    <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+  </div>
+</div>
+
+
+<main>
+  <!-- Contact Form Section -->
+  <div class="container space-top-1 space-top-lg-2 space-bottom-2">
+    <div class="row">
+      <div class="col-lg-6 mb-9 mb-lg-0">
+        <div class="mb-5">
+          <h3 class="text-primary">Agence Web Marketing à Paris et Aix-en Provence</h3><br>
+          <h1>Augmentez votre Chiffre d’Affaires Vitesse Grand V grâce au Web</h1><br>
+          <p>Nous aidons les PME avec de petites équipes marketing à accélérer la génération de leads ou de ventes grâce au webmarketing.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="ml-lg-5">
+          <!-- Form -->
+          <div class="js-validate card shadow-lg mb-4">
+            <div class="card-header border-0 bg-blue text-center py-4 px-4 px-md-6">
+              <h2 class="h4 mb-0">Discutons de votre projet 🚀</h2>
+            </div>
+
+            <div class="card-body p-4 p-md-6">
+              <div class="row">
+                <div class="col-sm-12">
+                  <%= simple_form_for @contact do |f| %>
+                    <%= f.input :name, placeholder:"Nataly"%>
+                    <%= f.input :email, placeholder:"nayagaga@pixeel.com" %>
+                    <%= f.input :message, placeholder:"Hi there, I would like to ..." %>
+                    <%= f.button :submit, "Nous contacter", class: " btn-block btn-primary" %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Form -->
+
+          <div class="text-center">
+            <p class="small">Nous analysons votre site, votre secteur d’activité et vous recontactons dans les 24h.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact Form Section -->
+</main>

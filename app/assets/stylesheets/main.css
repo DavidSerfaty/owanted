@@ -1,112 +1,17 @@
-/*
-:root {
-  --yellow-color: #F2B11D;
-  --dark-blue-color: #071657;
-  --blue-color: #0A7296;
-  --grey-color: #F1F1F1;
-} */
-
-h1{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 48px;
- }
-
-h2{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 36px;
-}
-
-h3{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-}
-
-h4{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-}
-
-h5{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
-  font-size: 20px;
-}
-
-h6{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
-  font-size: 20px;
-}
-
-p {
-  font-family: 'Roboto', sans-serif;
-}
-
-.kit-ui-title{
-  color: grey;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 20px;
-}
-
-footer{
-  background-color: var(--light);
-}
-hr {
-  border-color: black;
-  color: black;
-}
-/*
-
 .bg-secondary{
-  background-color: var(--dark-blue-color);
+  background-color: #071657 !important;
 }
-.bg-info{
-  background-color: var(--blue-color);
+
+.jumbotron{
+  background: linear-gradient(#071657, #0A7296)!important;
 }
-.ow-bg-grey{
-  background-color:var(--grey-color);
+.bg-navy{
+  background-color: #071657 !important;
 }
-.btn:hover{
-  color: #fff;
-  filter: brightness(0.95);
+.bg-gradient{
+  background: linear-gradient(#071657, #0A7296);
 }
-.btn-primary{
-  background-color: var(--yellow-color);
-  border: 0;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
-  padding: 10px 40px;
-  margin: 2px;
+
+hr{
+  border: 1px dotted black;
 }
-.btn-primary:hover{
-  background-color: var(--yellow-color);
-}
-.btn-secondary{
-  background-color: var(--dark-blue-color);
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
-  padding: 10px 40px;
-  margin: 2px;
-}
-.btn-secondary:hover{
-  background-color: var(--dark-blue-color);
-}
-.btn-info{
-  background-color: var(--blue-color);
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
-  padding: 10px 40px;
-  margin: 2px;
-}
-.btn-info:hover{
-  background-color: var(--blue-color);
-} */

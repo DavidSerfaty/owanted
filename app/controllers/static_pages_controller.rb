@@ -1,4 +1,11 @@
 class StaticPagesController < ApplicationController
+
+  def homepage
+  end
+
+  def all_services
+  end
+
   def uikit
   end
 
@@ -15,6 +22,6 @@ class StaticPagesController < ApplicationController
   end
 
   def cart
-
   end
+
 end
