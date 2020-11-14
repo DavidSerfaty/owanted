@@ -14,8 +14,12 @@
             <%= link_to "Services", services_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
+            <%= link_to "Blog", posts_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item">
             <%= link_to "Nous contacter", new_contact_path, class: "nav-link" %>
           </li>
+
           <% if user_signed_in? %>
             <li class="nav-item"><%= link_to "Profil", user_path(current_user), class: "nav-link"  %></li>
             <li class="nav-item"><%= link_to "Se déconnecter", destroy_user_session_path, method: :delete, class: "nav-link"  %></li>
