@@ -5,8 +5,7 @@ ActiveAdmin.register Post do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  permit_params :title
-  permit_params :content
+  permit_params :title, :content
   # or
   #
   # permit_params do
@@ -15,4 +14,11 @@ ActiveAdmin.register Post do
   #   permitted
   # end
 
+    form do |f|
+      f.inputs 'Article' do
+        f.input :title
+        f.input :content, as: :quill_editor
+      end
+      f.actions
+    end
 end

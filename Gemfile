@@ -27,6 +27,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'activeadmin'
 gem 'mini_magick'
+gem 'activeadmin_quill_editor'
 
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
